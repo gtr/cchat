@@ -11,10 +11,10 @@ run the server (leave out options for default settings):
   $ ./server
 
 on a different terminal, run one client and provide a username:
-  $ ./client torres
+  $ ./client gerardo
 
 on yet a different terminal, run another client with a different username:
-  $ ./client sterling
+  $ ./client david
 
 server usage:
 -------------------------------------------------------------------------------
