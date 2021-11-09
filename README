@@ -1,0 +1,34 @@
+Gerardo Torres
+
+`cchat`
+
+instructions:
+-------------------------------------------------------------------------------
+compile:
+  $ make
+
+run the server (leave out options for default settings):
+  $ ./server
+
+on a different terminal, run one client and provide a username:
+  $ ./client torres
+
+on yet a different terminal, run another client with a different username:
+  $ ./client sterling
+
+server usage:
+-------------------------------------------------------------------------------
+Usage:
+  ./server [options]
+
+Options:
+  --port	the port number to run on
+
+client usage:
+-------------------------------------------------------------------------------
+Usage:
+  ./client username [options]
+
+Options:
+  --ip		the IP address of the server to connect to
+  --port	the port number to run on
